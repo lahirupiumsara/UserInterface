@@ -9,6 +9,9 @@ function PostPane() {
            
           <AddPost/>
           <Post/>
+          <Post/>
+          <Post/>
+          
     </div>
   )
 }

@@ -3,29 +3,25 @@
     height: 32px;
     border-radius: 50%;
     object-fit: cover;
-
 }
 
 .addPost{
-    width: 95%;
+    width: 94%;
     border-radius: 10px;
     height: 130px;
     margin-top: 10px;
     margin-left: 10px;
     -webkit-box-shadow: 5px 9px 8px 2px rgba(0,0,0,0.53); 
      box-shadow: 5px 9px 8px 2px rgba(0,0,0,0.53);
-   
 }
 
 .addPostContainer{
     padding: 15px;
-
 }
 
 .addPostTop{
     display: flex;
     align-items: center;
-
 }
 
 .addPostInput{

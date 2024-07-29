@@ -12,10 +12,11 @@
     margin: 30px 0;
     margin-left: 10px;
     border-radius: 10px;
+    width: 94%;
 }
 
-.postTop{
-    margin-top: 10px;
+.postTop{ 
+    margin : 10px;
     display: flex;
     align-items: center;
 }
@@ -34,7 +35,6 @@
    width: 98%;
    background-size: cover;
    margin-left: 5px;
-
 }
 
 .reactionPic{
@@ -60,11 +60,19 @@
 .likeCount{
     margin-left: 5px;
     font-size: 12px;
-
 }
 
 .commentCount{
     margin-right: 10px;
     font-size: 13px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
 
+.postCenter{
+    margin: 20px 0;
+}
+
+.postCaption{
+    margin-left: 20px;
 }
