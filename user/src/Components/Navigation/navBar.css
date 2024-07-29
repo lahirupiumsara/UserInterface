@@ -64,7 +64,7 @@
     height: 32px;
     object-fit: cover;
     border-radius: 50%;
-    margin-left: 65px;
+    margin-left: 50px;
 }
 
 .logo{
@@ -98,4 +98,20 @@
     outline: none;
 }
 
+.pic{
+    display: flex;
+    
+}
+
+.onlineSt{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position:  relative;
+    top: 20px;
+    right: 5px;
+     
+}
+
+ 
  

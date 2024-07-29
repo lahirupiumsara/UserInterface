@@ -11,7 +11,7 @@ function AddPost() {
     <div className="addPostContainer">
         <div className="addPostTop">
             <img src="images/1.jpg" alt="" className="addPostPic" />
-            <input placeholder='Whats in your mind' type="text" className="addPostInput" />
+            <input placeholder="What's on your mind?" type="text" className="addPostInput" />
         </div> 
 
         <hr className="posthr" />

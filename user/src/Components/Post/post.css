@@ -16,7 +16,7 @@
 }
 
 .postTop{ 
-    margin : 10px;
+    margin : 10px  ;
     display: flex;
     align-items: center;
 }
@@ -28,7 +28,8 @@
 }
 
 .postTime{
-    font-size: 10px;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 
 .postedImage{
@@ -36,6 +37,9 @@
    background-size: cover;
    margin-left: 5px;
 }
+
+
+
 
 .reactionPic{
     width: 22px;
@@ -45,34 +49,86 @@
 }
 
 .postBottom{
-    width: 90%;
+    width: 98%;
     align-items: center;
     display: flex;
     margin: left 5px; 
     justify-content:space-between ;
+    border-bottom: 1px solid gray;
 }
 
 .postBottomLeft{
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 
 .likeCount{
     margin-left: 5px;
     font-size: 12px;
+    cursor: pointer;
 }
 
 .commentCount{
     margin-right: 10px;
     font-size: 13px;
-    border-bottom: 1px solid gray;
     cursor: pointer;
 }
 
 .postCenter{
-    margin: 20px 0;
+    margin: 10px o;
 }
 
 .postCaption{
     margin-left: 20px;
+}
+
+.visibility{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+    margin:5px;
+}
+
+.likeCommentsButtons{
+    width: 90%;
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+     margin: 5px 0 5px 20px;
+     font-family: sans-serif;
+     
+
+}
+
+.likeButton{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+
+.CommentButton{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 10px;
+    margin: 0 5px;
+}
+
+        
+.ShereButton{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 10px;
+    margin: 0 5px;
 }
