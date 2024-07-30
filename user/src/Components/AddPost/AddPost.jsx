@@ -34,8 +34,11 @@ function AddPost() {
                     <LiveTvIcon htmlColor='tomato' className='addPhoto'/>
                     <span className="addOptionText">Go Live</span>
                 </div>
+
             </div>
      <button className="postButton">Post</button>
+
+      
 
         </div>
     </div>
