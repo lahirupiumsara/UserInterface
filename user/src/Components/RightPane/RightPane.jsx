@@ -1,15 +1,20 @@
 import React from 'react'
 import './rightPane.css'
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 function RightPane() {
   return (
     <div className='rightPaneBox'>  
         <div className="rightPaneContainer">
           <div className="adContainer">
-            <span className="sponcered">Sponsored</span>
+            <div className="addHeader">
+            <span className="sponcered"><b>  Ad:</b> </span>
+            <span className="otherIcon"><MoreVertIcon/></span>
+            </div>
+            
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzGNJd1jeD5vwfYAPEVgMJEL25VjfHtIlr1Q&s" alt="error" className="adImg" />
             <span className="addText">
-              order your meal from us we can give you more offers!
+              order your meal from us we can give you more offers! Come tast your meals..
             </span>
           </div>
           <div className="birthDayContainer">
